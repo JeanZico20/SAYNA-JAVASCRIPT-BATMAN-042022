@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&family=Smooch+Sans:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("/Assets/Illustrations/Home/Bathome1.png");
+    background-repeat: no-repeat;
+}
+
+.header{
+    margin-top: 10px;
+}
+navbar{
+    display: flex;
+    justify-content: space-around;
+    color: #ffff;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    padding: 0 30px; 
+    list-style:none ;
+}
+
+.box{
+    text-align: center;
+    color: #ffff;
+    margin-top: 50px;
+}
+
+.Icone{
+    text-align: center;
+    margin-top: 500px;
+}
+
+.figure1{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.figure2{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    justify-content: space-between;
+    position: relative; 
+}
+
+.contact {
+            background-color:#19587D ;
+            color: #ffff;
+            padding-top: 6%;
+            padding-left: 5%;
+            padding-bottom: 2%;
+            min-height: 120vh;
+            border: 2px solid rgba(255, 255, 255, .2);
+            border-bottom: none;
+            border-top: none;
+            padding-left: 12%;
+            padding-right: 12%;
+        }
+
+.contact input {
+            width: 850px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            border-bottom: 2px solid #C4C4C4;
+        }
